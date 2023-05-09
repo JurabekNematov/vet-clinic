@@ -322,14 +322,9 @@ main {
 
 /* intro section start */
 .intro {
-  width: 1500px;
-  margin: 0 auto;
   background-image: url("./../images/introgroupbg.svg"), url("./../images/bird.svg");
   background-repeat: no-repeat;
-  background-position-x: -200px, 1260px;
-  background-position-y: -111px, 394px;
-  /* background-position-x: calc(-200px 1260px);
-  background-position-y: calc(-111px 394px); */
+  background-position: calc(50% - 520px) calc(50% - 90px) , calc(50% + 695px) calc(50% + 200px);
   
 }
 .intro__end {
