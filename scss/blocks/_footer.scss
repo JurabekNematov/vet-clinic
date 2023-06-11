@@ -1,0 +1,181 @@
+/* footer part start */
+.footer-sec {
+  background: #f3f3f3;
+  border: 1px solid #ebebeb;  
+}
+.footer-sec__wrapper {
+  padding-top: 54px;
+  padding-bottom: 23px;
+}
+.footer-sec__top {
+  display: flex;
+  margin-bottom: 28px;
+}
+.footer-sec__logo {
+  display: block;
+  margin-right: 67px;
+}
+.footer-sec__inner {
+  display: flex;
+  align-items: center;
+  margin-right: 127px;
+}
+.footer-sec__list {
+  margin: 0;
+  margin-right: 87px;
+  padding-left: 0;
+  list-style: none;
+}
+.footer-sec__list:last-of-type {
+  margin-right: 0;
+}
+.footer-sec__item {
+  margin-bottom: 14px;
+}
+.footer-sec__item:last-child {
+  margin-bottom: 0;
+}
+.footer-sec__item-link {
+  display: inline-block;
+  font-family: var(--main-font-family);
+  font-weight: var(--main-subtitle-font-weight);
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 21px;
+  color: #333;
+}
+.footer-sec__item-link:hover {
+  color: #ffbd54;
+}
+.footer-sec__item-link:active {
+  color: #333;
+  opacity: 0.6;
+}
+.footer-sec__start-inner {
+  display: flex;
+  align-items: first baseline;
+  justify-content: space-between;
+  font-style: normal;
+}
+.footer-sec__time {
+  margin: 0;
+  margin-right: 112px;
+  padding-left: 0;
+  list-style: none;
+}
+.footer-sec__time-item:first-child:before {
+  display: block;
+  margin-right: 14px;
+  background-image: url("./../images/schedule.svg");
+  width: 14px;
+  height: 14px;
+  background-size: 14px 14px;
+  content: "";
+}
+.footer-sec__time-num {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.footer-sec__time-item:first-child {
+  display: flex;
+  align-items: center;
+}
+.footer-sec__time-item:nth-child(2) {
+  display: block;
+  margin-left: 30px;
+}
+.footer-sec__tel-location {
+  display: flex;
+  font-family: var(--main-font-family);
+  font-weight: var(--main-subtitle-font-weight);
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #333; 
+}
+.footer-sec__tel-location::before {
+  display: inline-block;
+  margin-right: 9px;
+  background-image: url("./../images/house.svg");
+  width: 14px;
+  height: 13px;
+  background-size: 14px 14px;
+  content: "";  
+}
+.footer-sec__house-link {
+  margin-right: 104px;
+}
+.footer-sec__tel {
+  margin: 0;
+  margin-left: auto;
+  padding-left: 0;
+  list-style: none;
+}
+.footer-sec__tel-itim {
+  margin-bottom: 4px;
+}
+.footer-sec__tel-itim:last-child{
+  margin-bottom: 0;
+  margin-left: 21px;
+}
+.footer-sec__tel-itim:nth-child(2){
+  margin-left: 21px;
+}
+.footer-sec__tel-itim:first-child {
+  display: flex;
+}
+.footer-sec__tel-itim:first-child::before {
+  display: block;
+  margin-right: 9px;
+  background-image: url("./../images/phone.svg");
+  width: 13px;
+  height: 13px;
+  background-size: 13px 13px;
+  content: "";
+}
+.footer-sec__tel-link {
+  display: inline-block;
+  font-family: var(--main-font-family);
+  font-weight: var(--main-subtitle-font-weight);
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #333;  
+}
+.footer-sec__copy {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: var(--main-font-family);
+  font-weight: var(--main-text-font-weight);
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #5C5C5C;  
+}
+/* footer part finish */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+  .service__img {
+    background-image: url("./../images/checkingcatty@2x.png");
+  }
+  .subscription {
+    background-image: url("./../images/subscrptionbg@2x.png");
+
+  }
+  .info__big-img {
+    background-image: url("./../images/runningdogs@2x.png");
+  }
+  .info__img {
+    background-image: url("./../images/littlecatty@2x.png");
+    background-image: url("./../images/subslittledog@2x.png");
+  }
+
+} 
+/* site done by Jurabek Nematov */

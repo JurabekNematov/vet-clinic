@@ -1,0 +1,56 @@
+/* intro section start */
+.intro {
+    background-image: url("./../images/introgroupbg.svg"), url("./../images/bird.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 520px) calc(50% - 90px) , calc(50% + 695px) calc(50% + 200px);
+    
+  }
+  .intro__end {
+    width: 608px;
+    margin-left: auto;
+    padding-top: 153px;
+    padding-bottom: 310px;
+  }
+  .intro__heading {
+    margin-top: 0;
+    margin-bottom: 29px;
+    font-family: var(--main-font-family);
+    font-weight: var(--main-heading-font-weight);
+    font-size: 70px;
+    line-height: 64px;
+    color: #333;  
+  }
+  .intro__heading-blue {
+    color: #78c0de;
+  }
+  .intro__text {
+    margin-top: 0;
+    margin-bottom: 38px;
+    font-family: var(--main-font-family);
+    font-weight: var(--main-subtitle-font-weight);
+    line-height: 21px;
+    color: #949494;
+  }
+  .intro__text-wrapper {
+    width: 495px;
+  }
+  .intro__link {
+    display: inline-block;
+    padding: 16px 48px;
+    font-family: var(--main-font-family);
+    font-weight: var(--main-subtitle-font-weight);
+    line-height: 21px;
+    text-decoration: none;
+    color: #fff;  
+    background-color: #333;
+    border-radius: 3px;
+  }
+  .intro__link:hover {
+    color: #333;  
+    background: #ffbd54;
+  }
+  .intro__link:active {
+    opacity: 0.8;
+  }
+  /* intro section finish */
+  

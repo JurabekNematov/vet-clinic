@@ -1,0 +1,127 @@
+/* contact section start */
+.contact {
+  padding-top: 130px;
+  padding-bottom: 247px;
+}
+.contact__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact__location {
+  width: 462px;
+  height: 649px;
+  mix-blend-mode: luminosity;
+  border-radius: 0px;
+}
+.contact__right {
+  background-image: url("./../images/contactbg.svg");
+  width: 990px;
+  height: 649px;
+  background-color: #333;
+}
+.contact__right-wrapper {
+  padding: 62px 0 74px 166px;
+}
+.contact__heading {
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-family: var(--main-font-family);
+  font-weight: var(--main-heading-font-weight);
+  font-size: 48px;
+  line-height: 62px;
+  color: #fff;  
+}
+.contact__text-wrapper {
+  width: 334px;
+}
+.contact__text {
+  margin-top: 0;
+  margin-bottom: 29px;
+  font-family: var(--main-font-family);
+  font-weight: var(--main-text-font-weight);
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;  
+}
+.contact__input-text {
+  display: block;
+  width: 375px;
+  margin-bottom: 14px;
+  padding: 15px 22px;
+  outline: none;
+  border: 2px solid #fff;
+}
+.contact__input-text::placeholder {
+  font-family: var(--main-font-family);
+  font-weight: var(--main-text-font-weight);
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+}
+.contact__input-text:focus {
+  border: 2px solid #3d9cea;
+  color: #949494;
+}
+
+.contact__input-email {
+  display: block;
+  width: 375px;
+  margin-bottom: 14px;
+  padding: 15px 22px;
+  outline: none;
+  border: 2px solid #fff;
+}
+.contact__input-email::placeholder {
+  font-family: var(--main-font-family);
+  font-weight: var(--main-text-font-weight);
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+}
+.contact__input-email:focus {
+  border: 2px solid #3d9cea;
+  color: #949494;
+}
+.contact__textarea {
+  display: block;
+  width: 375px;
+  height: 165px;
+  margin-bottom: 30px;
+  padding: 15px 22px;
+  outline: none;
+  border: 2px solid #fff;
+  resize: none;
+}
+.contact__textarea::placeholder {
+  font-family: var(--main-font-family);
+  font-weight: var(--main-text-font-weight);
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+}
+.contact__textarea:focus {
+  border: 2px solid #3d9cea;
+  color: #949494;
+}
+.contact__btn {
+  padding: 15px 50px;
+  font-family: var(--main-font-family);
+  font-weight: var(--main-subtitle-font-weight);
+  font-size: 16px;
+  line-height: 21px;
+  background: none;
+  border: none;
+  color: #fff;
+  background: #ffbd54;
+  border: 1px solid #ffbd54;
+}
+.contact__btn:hover {
+  background: #333;
+  color: #ffbd54;
+  border: 1px solid #fff;
+}
+.contact__btn:active {
+  opacity: 0.6;
+}
+/* main part finish */ 
