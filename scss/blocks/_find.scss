@@ -1,0 +1,54 @@
+.find {
+  margin-top: 220px;
+  padding-bottom: 206px;
+}
+.find__wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+.find__top {
+  margin-bottom: 40px;
+}
+.find__top-heading {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Futura PT';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  color: #333;  
+} 
+.find__top-heading::before {
+  position: absolute;
+  top: -136px;
+  right: 600px;
+  display: inline-block;
+  width: 112px;
+  height: 112px;
+  background-image: url("../../images/magnifier.svg");
+  background-repeat: no-repeat;
+  content: "";
+} 
+.find__bottom {
+  display: flex;
+  align-items: center;
+}
+.find__iframe-wrapper {
+position: relative;
+}
+.find__iframe-wrapper::before {
+  position: absolute;
+  top: -297px;
+  display: inline-block;
+  width: 443px;
+  height: 342px;
+  background-image: url("../../images/findcat.png");
+  background-repeat: no-repeat;
+  content: "";
+}
+.find__location {
+  width: 847px;
+  height: 466px;
+}

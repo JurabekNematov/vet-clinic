@@ -10,6 +10,8 @@ img {
 }
 body {
   height: 100%;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   background-image: url("./../images/bg.png");
   background-color: #f9f9f9;

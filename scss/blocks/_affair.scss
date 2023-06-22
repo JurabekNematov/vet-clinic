@@ -1,0 +1,115 @@
+.affair {
+  padding-top: 118px;
+  padding-bottom: 168px;
+}
+.affair__top {
+  display: flex;
+  margin-left: 100px;
+}
+.affair__left {
+  width: 477px;
+}
+.affair__heading {
+  margin-top: 0;
+  margin-bottom: 21px;
+  font-family: 'Futura PT';
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333;  
+}
+.affair__text {
+  margin-top: 0;
+  margin-bottom: 140px;
+  font-family: 'Futura PT';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;  
+}
+.affair__right {
+  position: absolute;
+  top: calc(50% - 400px);
+  right: calc(50% - 690px);
+  width: 435px;
+  height: 435px;
+  background-image: url("../../images/parrot.png");
+  background-repeat: no-repeat;
+}
+.affair__bottom-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.affair__bottom-item {
+  width: 305px;
+  height: 420px;
+  padding: 0px 23px 45px 53px;
+  background: #fff;
+  border-radius: 5px 5px 0px 0px; 
+  margin-bottom: 34px; 
+}
+.affair__bottom-item:hover { 
+  background: #fff;
+  border-radius: 5px 5px 0px 0px; 
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.2));
+}
+.affair__bottom-item:hover .affair__bottom-link {
+  background-color: #000; 
+}
+.affair__bottom-item:active .affair__bottom-link {
+  opacity: 0.6;
+}
+.affair__bottom-item:last-child {
+  margin-bottom: 0;
+}
+.affair__bottom-inner {
+  width: 230px;
+}
+.affair__bottom-heading::before {
+  display: block;
+  width: 54px;
+  height: 77px;
+  margin-top: 58px;
+  margin-bottom: 21px;
+  background-image: url("../../images/doctorone.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.affair__bottom-heading {
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-family: 'Futura PT';
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 34px;
+  color: #333;  
+}
+.affair__bottom-text {
+  margin-top: 0;
+  margin-bottom: 26px;
+  font-family: 'Futura PT';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;  
+}
+.affair__bottom-link {
+  display: inline-block;
+  padding: 15px 30px;
+  font-family: 'Futura PT';
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;  
+  background: #ffbd54;
+  border-radius: 3px;
+}
+.blue {
+  background: #78c0de;
+}

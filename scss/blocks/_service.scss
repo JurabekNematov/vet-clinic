@@ -26,18 +26,27 @@
   list-style: none;
 }
 .service__list::before {
+  position: absolute;
   top: calc(50% - 13px);
   left: -50px;
-  position: absolute;
   display: block;
   margin-right: 30px;
+  padding: 12px 18px;
   background-image: url("./../images/lineleft.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 15px 26px;
+  background-color: transparent;
   width: 15px;
   height: 26px;
   content: "";
+}
+.service__list:hover::before {
+  background-color: #fff;
+}
+.service__list:active:before {
+  background-color: #fff;
+  opacity: 0.6;
 }
 .service__list::after {
   position: absolute;
@@ -45,13 +54,22 @@
   right: -50px;
   display: block;
   margin-left: 30px;
+  padding: 12px 18px;
   background-image: url("./../images/lineright.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-color: transparent;
   background-size: 15px 26px;
   width: 15px;
   height: 26px;
   content: "";
+}
+.service__list:hover::after {
+  background-color: #fff;
+}
+.service__list:active::after {
+  background-color: #fff;
+  opacity: 0.6;
 }
 .service__item {
   width: 193px;

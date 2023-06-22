@@ -1,0 +1,118 @@
+.contacts {
+  padding-bottom: 120px;
+}
+.contacts__wrapper {
+  position: relative;
+  display: flex;
+}
+.contacts__left {
+  padding-top: 118px;
+}
+.contacts__left-top {
+  width: 447px;
+  margin-bottom: 117px;
+}
+.contacts__left-top-heading {
+  margin-top: 0;
+  margin-bottom: 27px;
+  font-family: var(--main-font-family);
+  font-weight:   var(--main-heading-font-weight);
+  font-size: 70px;
+  line-height: 64px;
+  color: #333;
+}
+.contacts__left-top-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;  
+}
+.contacts__right {
+  position: absolute;
+  top: 18px;
+  right: -73px;
+  background-image: url("./../../images/puppy-veterinarian.png");
+  background-repeat: no-repeat;
+  background-size: 487px 548px;
+  width: 487px;
+  height: 548px;
+}
+.contacts__left__start-inner {
+  display: flex;
+  justify-content: space-between;
+  width: 656px;
+  font-style: normal;
+}
+.contacts__left__time {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.contacts__left__time::before {
+  display: block;
+  background-image: url("./../../images/calendar.svg");
+  width: 76px;
+  height: 72px;
+  margin-bottom: 30px;
+  background-size: 76px 72px;
+  content: "";
+}
+.contacts__left__time-item:first-child {
+  margin-bottom: 12px;
+}
+.contacts__left__time-num {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.contacts__left__tel-location {
+  display: flex;
+  font-family: var(--main-font-family);
+  font-weight: var(--main-subtitle-font-weight);
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #333; 
+}
+.contacts__left__house-link:before {
+  display: block;
+  background-image: url("./../../images/location.svg");
+  width: 73px;
+  height: 73px;
+  margin-bottom: 30px;
+  background-size: 73px 73px;
+  content: "";
+}
+.contacts__left__tel {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.contacts__left__tel::before {
+  display: block;
+  background-image: url("./../../images/phonecontact.svg");
+  width: 46px;
+  height: 73px;
+  margin-bottom: 26px;
+  background-size: 46px 73px;
+  content: "";
+}
+.contacts__left__tel-itim {
+  margin-bottom: 9px;
+}
+.contacts__left__tel-itim:last-child {
+  margin-bottom: 0;
+}
+.contacts__left__tel-link {
+  display: inline-block;
+  font-family: var(--main-font-family);
+  font-weight: var(--main-subtitle-font-weight);
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  text-align: right;
+  color: #333;  
+}
